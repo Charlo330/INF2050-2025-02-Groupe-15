@@ -11,7 +11,7 @@ public class Inscription {
   private Etudiant etudiant;
 
   // Groupe de cours auquel l'étudiant est inscrit
-  private Groupecours groupecours;
+  private GroupeCours groupeCours;
 
   // Date d'inscription de l'étudiant dans le groupe de cours
   private LocalDate dateinscription;
@@ -26,15 +26,15 @@ public class Inscription {
    * Constructeur de la classe Inscription.
    *
    * @param etudiant L'étudiant inscrit dans le groupe de cours.
-   * @param groupecours Le groupe de cours auquel l'étudiant est inscrit.
+   * @param groupeCours Le groupe de cours auquel l'étudiant est inscrit.
    * @param dateinscription La date d'inscription de l'étudiant dans le groupe de cours.
    * @param dateabandon La date d'abandon de l'étudiant du groupe de cours.
    * @param note La note obtenue par l'étudiant dans le groupe de cours.
    */
-  public Inscription(Etudiant etudiant, Groupecours groupecours, LocalDate dateinscription,
+  public Inscription(Etudiant etudiant, GroupeCours groupeCours, LocalDate dateinscription,
                      LocalDate dateabandon, Number note) {
     this.etudiant = etudiant;
-    this.groupecours = groupecours;
+    this.groupeCours = groupeCours;
     this.dateinscription = dateinscription;
     this.dateabandon = dateabandon;
     this.note = note;
@@ -63,17 +63,17 @@ public class Inscription {
    *
    * @return Le groupe de cours auquel l'étudiant est inscrit.
    */
-  public Groupecours getGroupecours() {
-    return groupecours;
+  public GroupeCours getGroupecours() {
+    return groupeCours;
   }
 
   /**
    * Setter pour le groupe de cours auquel l'étudiant est inscrit.
    *
-   * @param groupecours Le groupe de cours à associer à l'étudiant.
+   * @param groupeCours Le groupe de cours à associer à l'étudiant.
    */
-  public void setGroupecours(Groupecours groupecours) {
-    this.groupecours = groupecours;
+  public void setGroupecours(GroupeCours groupeCours) {
+    this.groupeCours = groupeCours;
   }
 
   /**

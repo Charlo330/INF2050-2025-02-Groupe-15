@@ -3,7 +3,7 @@ package ca.uqam.inf2050;
 /**
  * Classe représentant un groupe de cours.
  */
-public class Groupecours {
+public class GroupeCours {
 
   // Cours associé au groupe de cours
   private Cours cours;
@@ -15,7 +15,7 @@ public class Groupecours {
   private Session session;
 
   // Nombre maximum d'inscriptions autorisées dans le groupe de cours
-  private Number maxinscriptions;
+  private Number maxInscriptions;
 
   // Local où se déroule le groupe de cours
   private String local;
@@ -26,15 +26,15 @@ public class Groupecours {
    * @param cours Cours associé au groupe de cours.
    * @param enseignant Enseignant responsable du groupe de cours.
    * @param session Session à laquelle le groupe de cours est associé.
-   * @param maxinscriptions Nombre maximum d'inscriptions autorisées dans le groupe de cours.
+   * @param maxInscriptions Nombre maximum d'inscriptions autorisées dans le groupe de cours.
    * @param local Local où se déroule le groupe de cours.
    */
-  public Groupecours(Cours cours, Enseignant enseignant, Session session,
-                     Number maxinscriptions, String local) {
+  public GroupeCours(Cours cours, Enseignant enseignant, Session session,
+                     Number maxInscriptions, String local) {
     this.cours = cours;
     this.enseignant = enseignant;
     this.session = session;
-    this.maxinscriptions = maxinscriptions;
+    this.maxInscriptions = maxInscriptions;
     this.local = local;
   }
 
@@ -98,16 +98,16 @@ public class Groupecours {
    * @return Nombre maximum d'inscriptions autorisées.
    */
   public Number getMaxinscriptions() {
-    return maxinscriptions;
+    return maxInscriptions;
   }
 
   /**
    * Setter pour le nombre maximum d'inscriptions autorisées dans le groupe de cours.
    *
-   * @param maxinscriptions Nombre maximum d'inscriptions à définir.
+   * @param maxInscriptions Nombre maximum d'inscriptions à définir.
    */
-  public void setMaxinscriptions(Number maxinscriptions) {
-    this.maxinscriptions = maxinscriptions;
+  public void setMaxinscriptions(Number maxInscriptions) {
+    this.maxInscriptions = maxInscriptions;
   }
 
   /**

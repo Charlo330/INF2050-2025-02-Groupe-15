@@ -6,7 +6,7 @@ package ca.uqam.inf2050;
 public class Enseignant {
 
   // Code de l'enseignant
-  private String codeenseignant;
+  private String codeEnseignant;
 
   // Nom de l'enseignant
   private String nom;
@@ -17,12 +17,12 @@ public class Enseignant {
   /**
    * Constructeur de la classe Enseignant.
    *
-   * @param codeenseignant Le code de l'enseignant.
+   * @param codeEnseignant Le code de l'enseignant.
    * @param nom Le nom de l'enseignant.
    * @param prenom Le prénom de l'enseignant.
    */
-  public Enseignant(String codeenseignant, String nom, String prenom) {
-    this.codeenseignant = codeenseignant;
+  public Enseignant(String codeEnseignant, String nom, String prenom) {
+    this.codeEnseignant = codeEnseignant;
     this.nom = nom;
     this.prenom = prenom;
   }
@@ -32,17 +32,17 @@ public class Enseignant {
    *
    * @return Le code de l'enseignant.
    */
-  public String getCodeenseignant() {
-    return codeenseignant;
+  public String getCodeEnseignant() {
+    return codeEnseignant;
   }
 
   /**
    * Setter pour le code de l'enseignant.
    *
-   * @param codeenseignant Le code de l'enseignant.
+   * @param codeEnseignant Le code de l'enseignant.
    */
-  public void setCodeenseignant(String codeenseignant) {
-    this.codeenseignant = codeenseignant;
+  public void setCodeenseignant(String codeEnseignant) {
+    this.codeEnseignant = codeEnseignant;
   }
 
   /**

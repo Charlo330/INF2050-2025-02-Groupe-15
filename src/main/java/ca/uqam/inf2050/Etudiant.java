@@ -6,7 +6,7 @@ package ca.uqam.inf2050;
 public class Etudiant {
 
   // Code permanent de l'étudiant
-  private String codepermanent;
+  private String codePermanent;
 
   // Nom de l'étudiant
   private String nom;
@@ -20,13 +20,13 @@ public class Etudiant {
   /**
    * Constructeur de la classe Etudiant.
    *
-   * @param codepermanent Le code permanent de l'étudiant.
+   * @param codePermanent Le code permanent de l'étudiant.
    * @param nom Le nom de l'étudiant.
    * @param prenom Le prénom de l'étudiant.
    * @param codeprogramme Le code du programme de l'étudiant.
    */
-  public Etudiant(String codepermanent, String nom, String prenom, Number codeprogramme) {
-    this.codepermanent = codepermanent;
+  public Etudiant(String codePermanent, String nom, String prenom, Number codeprogramme) {
+    this.codePermanent = codePermanent;
     this.nom = nom;
     this.prenom = prenom;
     this.codeprogramme = codeprogramme;
@@ -37,17 +37,17 @@ public class Etudiant {
    *
    * @return Le code permanent de l'étudiant.
    */
-  public String getCodepermanent() {
-    return codepermanent;
+  public String getCodePermanent() {
+    return codePermanent;
   }
 
   /**
    * Setter pour le code permanent de l'étudiant.
    *
-   * @param codepermanent Le code permanent de l'étudiant.
+   * @param codePermanent Le code permanent de l'étudiant.
    */
-  public void setCodepermanent(String codepermanent) {
-    this.codepermanent = codepermanent;
+  public void setCodepermanent(String codePermanent) {
+    this.codePermanent = codePermanent;
   }
 
   /**
